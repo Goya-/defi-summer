@@ -1,4 +1,12 @@
 {
+  "name": "defi-summer",
+  "version": "0.0.1",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "repository": "https://github.com/Goya-/defi-summer.git",
+  "scripts": {
+    "build": "bun build ./src/main.ts --outdir ./dist --target node"
+  },
   "dependencies": {
     "starknet-batcher": "^0.1.1"
   }
